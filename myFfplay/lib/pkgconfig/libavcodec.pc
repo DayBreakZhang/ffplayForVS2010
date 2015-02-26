@@ -1,0 +1,12 @@
+prefix=d:/OmniCoder/svn_build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 51.54.0
+Requires:  theora vorbisenc libavutil = 49.6.0
+Conflicts:
+Libs: -L${libdir} -lavcodec   -lz -lm -lvfw32 -la52 -lamrnb -lm -lamrwb -lm -lfaac -lfaad -lgsm -lmp3lame -lm -ltheora -logg -lvorbisenc -lvorbis -logg -lx264 -lm -lxvidcore  -lws2_32 -lvfw32  -lpthreadGC2
+Cflags: -I${includedir}

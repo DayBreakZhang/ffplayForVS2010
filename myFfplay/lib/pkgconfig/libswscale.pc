@@ -1,0 +1,12 @@
+prefix=d:/OmniCoder/svn_build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 0.5.1
+Requires: libavutil = 49.6.0
+Conflicts:
+Libs: -L${libdir} -lswscale
+Cflags: -I${includedir}

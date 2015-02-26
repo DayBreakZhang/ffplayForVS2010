@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{4630b966-3228-4773-a5ef-cea45de8a1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\pkgconfig">
+      <UniqueIdentifier>{91629b59-6356-44b0-9f2d-e79d0b043c88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\myFfplay.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\myFfplay.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="lib\pkgconfig\libavcodec.pc">
+      <Filter>lib\pkgconfig</Filter>
+    </None>
+    <None Include="lib\pkgconfig\libavdevice.pc">
+      <Filter>lib\pkgconfig</Filter>
+    </None>
+    <None Include="lib\pkgconfig\libavfilter.pc">
+      <Filter>lib\pkgconfig</Filter>
+    </None>
+    <None Include="lib\pkgconfig\libavformat.pc">
+      <Filter>lib\pkgconfig</Filter>
+    </None>
+    <None Include="lib\pkgconfig\libavutil.pc">
+      <Filter>lib\pkgconfig</Filter>
+    </None>
+    <None Include="lib\pkgconfig\libswscale.pc">
+      <Filter>lib\pkgconfig</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myFfplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myFfplayDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\begin_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\close_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\SDL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\SDL_thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myFfplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myFfplayDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myPlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ffplay.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdutils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myFfplay.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\avcodec.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\avdevice.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\avfilter.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\avformat.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\avutil.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\swscale.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\SDL.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
