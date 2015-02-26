@@ -1,0 +1,2 @@
+# ffplayForVS2010
+ffmpeg的windows的vs的移植项目
