@@ -32,8 +32,8 @@ extern "C"
 #include "version.h"
 #include "cmdutils.h"
 
-#include <SDL\SDL.h>
-#include <SDL\SDL_thread.h>
+#include "SDL\SDL.h"
+#include "SDL\SDL_thread.h"
 
 #ifdef __cplusplus
 };
